@@ -1,0 +1,110 @@
+.roadmap-content-wrapper-light {
+    background-image: linear-gradient(to bottom right, #fecee0, #ecf4d1, #f0b8fb);
+    padding: 115px;
+}
+
+.roadmap-content-wrapper-dark {
+    background-image: linear-gradient(to bottom right, #563d4b, #2a5842, #4e255d);
+    padding: 115px;
+    color: white;
+}
+
+.roadmap-clickable {
+    cursor: pointer;
+}
+
+/* .vertical-line {
+    border-left: 1px solid #3D529B;
+    height: 100%;
+    position: absolute;
+    left: 24%;
+    top: 0;
+    transform: translateX(-50%);
+} */
+
+.roadmap-modal-close-btn {
+    background-color: #0089bb !important;
+    padding: 5px !important;
+    opacity: 1 !important;
+    border-radius: 92px;
+    color: white;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.roadmap-modal-content {
+    border: 2px solid #0089bb;
+    background: #ffffffe8 0% 0% no-repeat;
+    border-radius: 20px;
+}
+
+.helping-resource-link {
+  color: black;
+}
+
+.helping-resource-link-span {
+    border: 1px solid #0089BB;
+    background: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.link-icon {
+    color: #0089BB;
+}
+
+
+/**
+* Following properties are specific to roadmap landing page
+*/
+.roadmap-content-wrapper-light {
+    background-image: linear-gradient(to bottom right, #fecee0, #ecf4d1, #f0b8fb);
+    padding: 115px;
+}
+
+.roadmap-content-wrapper-dark {
+    background-image: linear-gradient(to bottom right, #563d4b, #2a5842, #4e255d);
+    padding: 115px;
+    color: white;
+}
+
+.roadmap-title-dark {
+    color: #CEF2FF;
+}
+
+.roadmap-subtitle {
+    color: #0089BB !important;
+}
+
+.section-heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.roadmap-container {
+    padding: 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 48px;
+}
+
+.roadmap-container-light {
+    background: #e6f8ff7a 0% 0% no-repeat padding-box;
+}
+
+.roadmap-container-dark {
+    background: #304752 0% 0% no-repeat padding-box;
+}
+
+.roadmap-heading-1 {
+    font-size: 25px;
+}
+
+.roadmap-heading-2 {
+    font-size: 30px;
+    color: #0089BB;
+}
+
+.roadmap-heading-2-dark {
+    color: #CEF2FF;
+}

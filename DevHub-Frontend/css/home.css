@@ -1,0 +1,178 @@
+.main-heading {
+    font-size: 4vw;
+    text-align: center;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.main-heading-dark {
+    color: #CEF2FF;
+}
+
+.sub-heading {
+    font-size: 4vw;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #0089BB;
+    opacity: 1;
+}
+
+.rocket-image {
+    display: flex;
+    justify-content: center;
+    height: 35vw;
+}
+
+.devhub-purpose-container, .community-sponsor-container {
+    border: 1px solid #0000001f;
+    background-color: #f9f9f9;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 13vw;
+}
+
+.devhub-purpose-container-dark, .community-sponsor-container-dark {
+    background-color: #183946;
+    color: #CEF2FF;
+}
+
+.devhub-purpose {
+    padding: 20px;
+    border-radius: 30px;
+    background: #CEF2FF 0% 0% no-repeat padding-box;
+}
+
+.devhub-purpose-dark {
+    background: #183946 !important;
+}
+
+.section-heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.devhub-feature-container {
+    margin-top: 7vw;
+    background: url('../resources/feature-gradient-dark.png') 0% 0% no-repeat padding-box;
+    background-size: cover;
+}
+
+@media (min-width: 1168px) {
+    .devhub-feature-description {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+.devhub-feature {
+    padding: 40px;
+    background: #e6f8ff7a 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 48px;
+}
+
+.feature-heading-1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.feature-heading-2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #0089BB;
+}
+
+@media (max-width: 410px) {
+    .feature-img {
+        min-width: 50px;
+        bottom: 15px;
+        position: relative;
+    }
+}
+
+@media (min-width: 595px) and (max-width:870px) {
+    .feature-img {
+        min-width: 50px;
+        bottom: 15px;
+        position: relative;
+    }
+}
+
+.member-job-title {
+    color: #0089BB
+}
+
+.team-member {
+    border-radius: 30px;
+}
+
+.team-member-light {
+    background-image: linear-gradient(white, #CEF2FF);
+}
+
+.team-member-dark {
+    background-image: linear-gradient(#222222, #183946);
+}
+
+.contact-us-container-light {
+    background: url(../resources/Contact-Us-BG.png);
+    background-size: cover;
+    margin-bottom: 115px;
+}
+
+.contact-us-container-dark {
+    background: url(../resources/contact-us-BG-dark.png);
+    background-size: cover;
+    color: white;
+    margin-bottom: 115px;
+}
+
+.contact-us-form, .contact-info-box {
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.contact-us-form-light, .contact-info-box-light {
+    background: #ffffff9c 0% 0% no-repeat padding-box;
+}
+
+.contact-us-form-dark, .contact-info-box-dark {
+    background: #304752 0% 0% no-repeat padding-box;
+    border: 1px solid white;
+}
+
+.input-field-div {
+    border: 2px solid #CEF2FF;
+    border-radius: 18px;
+}
+
+.contact-us-input-field {
+    background: inherit;
+    border: 0;
+}
+
+.contact-us-input-field-dark {
+    color: white;
+}
+
+.contact-info-box {
+    padding-right: 130px;
+}
+
+.contact-info-type-light {
+    color: #363b4294;
+    font-size: 15px;
+}
+
+.contact-info-type-dark {
+    color: #CEF2FF;
+    font-size: 15px;
+}
+
+.contact-info-type {
+    font-size: 15px;
+}

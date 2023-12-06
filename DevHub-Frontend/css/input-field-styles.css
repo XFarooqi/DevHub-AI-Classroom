@@ -1,0 +1,17 @@
+.input-field-div {
+    border: 2px solid black;
+    border-radius: 18px;
+}
+
+.input-field-div-dark {
+    border: 2px solid #CEF2FF !important;
+}
+
+.input-field {
+    background: inherit;
+    border: 0;
+}
+
+.input-field-dark {
+    color: #CEF2FF;
+}

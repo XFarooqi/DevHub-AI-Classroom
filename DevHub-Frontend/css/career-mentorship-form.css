@@ -1,0 +1,58 @@
+.career-mentorship-content-wrapper-light {
+    background-image: linear-gradient(to bottom right, #fecee0, #ecf4d1, #f0b8fb);
+    padding: 115px;
+}
+
+.career-mentorship-content-wrapper-dark {
+    background-image: linear-gradient(to bottom right, #563d4b, #2a5842, #4e255d);
+    padding: 115px;
+    color: white;
+}
+
+.career-mentorship-form-heading-2-dark, .cm-subheading-dark {
+    color: #83deff;
+}
+
+.career-mentorship-form-heading-2-light, .cm-subheading-light {
+    color: #0089BB;
+}
+
+.career-mentorship-form-heading-dark, .career-mentorship-form-sub-heading-dark, .cm-heading-dark {
+    color: white;
+}
+
+.career-mentorship-form-heading {
+    font-size: 3vw;
+}
+
+.cm-form-container {
+    border-radius: 35px;
+}
+
+.cm-form-container-light {
+    background: #ffffff9c 0% 0% no-repeat padding-box;
+}
+
+.cm-form-container-dark {
+    background: #304752 0% 0% no-repeat padding-box;
+    border: 1px solid white;
+}
+
+.interest-level-div {
+    border: 1px solid #83deff;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.interest-level-select-field {
+    border: 0;
+    width: 80%;
+    color: #0089BB;
+    background: inherit;
+}
+
+.predicted-career-div {
+    border: 2px solid #0089bb;
+    background: white;
+    border-radius: 20px; 
+}

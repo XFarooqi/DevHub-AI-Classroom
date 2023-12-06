@@ -1,0 +1,18 @@
+.career-mentorship-content-wrapper-light {
+    background-image: linear-gradient(to bottom right, #fecee0, #ecf4d1, #f0b8fb);
+    padding: 115px;
+}
+
+.career-mentorship-content-wrapper-dark {
+    background-image: linear-gradient(to bottom right, #563d4b, #2a5842, #4e255d);
+    padding: 115px;
+    color: white;
+}
+
+.career-title-dark {
+    color: #CEF2FF;
+}
+
+.mentorship-title {
+    color: #0089BB;
+}

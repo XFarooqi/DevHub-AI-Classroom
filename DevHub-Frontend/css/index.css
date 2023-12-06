@@ -1,0 +1,160 @@
+/** Global styles */
+body {
+    font-family: 'Space Grotesk';
+}
+
+.main-nav {
+    padding-left: 100px;
+}
+
+.dev-logo {
+    color: #0089BB !important;
+}
+
+.navbar-light {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.navbar-dark {
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+.dev-hub-logo {
+    font-weight: 700;
+}
+
+.dev-hub-logo-dark:not(.dev-logo) {
+    font-weight: 700;
+    color: #CEF2FF;
+}
+
+button:not(.close) {
+    background: transparent linear-gradient(180deg, #76B1E8 0%, #3D529B 100%) 0% 0% no-repeat padding-box;
+    border-radius: 18px;
+    color: white;
+    border: inherit;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.devhub-alert {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.main-content-wrapper {
+    background: transparent url('../resources/Hero-BG-light.svg') 0% 0% no-repeat padding-box;
+    background-size: 100%;
+}
+
+.main-content-wrapper-dark {
+    background: transparent url('../resources/Hero-BG-dark.svg') 0% 0% no-repeat padding-box;
+    background-size: 100%;
+}
+
+.profile-link {
+    font-size: 50px;
+}
+  
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.label {
+    top: 5px;
+    width: 50px;
+    height: 26px;
+    display: flex;
+    border-radius:50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    transform: scale(1.0);
+}
+ 
+.light-theme{
+    background: transparent linear-gradient(119deg, #EDD550 0%, #FFF5C1 100%) 0% 0% no-repeat padding-box;
+}
+
+.dark-theme{
+    background: transparent linear-gradient(299deg, #002A3A 0%, #0089BB 100%) 0% 0% no-repeat padding-box;
+}
+
+.ball {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+}
+
+/*  target the elemenent after the label*/
+.checkbox:checked + .label .ball{
+    transform: translateX(24px);
+}
+
+.fa-moon-o {
+    color: pink;
+}
+
+.fa-sun-o {
+    color: yellow;
+}
+
+/* Footer Styles*/
+footer {
+    min-height: 250px;
+    background-color: black;
+    color: white;
+}
+
+.dev-footer-logo {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.footer-email-div {
+    border: 2px solid #CEF2FF;
+    border-radius: 18px;
+}
+
+.footer-email-title {
+    color: #CEF2FF;
+}
+
+.footer-email-input-field {
+    background: inherit;
+    border: 0;
+    color: #0089BB;
+}
+
+.contact-info-type {
+    color: #363b4294;
+    font-size: 15px;
+}
+
+.footer-page-links {
+    color: #ffffff70;
+}
+
+.footer-news-letter {
+    max-width: 490px;
+}
+
+.footer-icon-links {
+    color: white;
+}
+
+/* .flask-content {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}   */

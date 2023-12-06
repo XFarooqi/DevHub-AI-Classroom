@@ -1,0 +1,668 @@
+<link rel="stylesheet" href="../css/career-mentorship-form.css">
+<script src="../js/career-mentorship-form.js"></script>
+
+<div class="career-mentorship-content-wrapper career-mentorship-content-wrapper-light">
+    <div>
+        <p class="career-mentorship-form-heading font-weight-bold">Explore your <span
+                class="career-mentorship-form-heading-2 career-mentorship-form-heading-2-light">Career Path</span></p>
+        <p class="career-mentorship-form-sub-heading">Input your level of interest for each topic and our machine
+            learning model tell you which career path should you choose.</p>
+    </div>
+    <form class="career-mentorship-form" data-action="/career/mentorship">
+        <div class="container-fluid">
+            <!-- First Row -->
+            <div class="row justify-content-around mt-4">
+                <div class="col-5 cm-form-container cm-form-container-light p-4">
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <div class="d-flex">
+                                <img class="mr-2" src="../resources/cm-form-database.png">
+                                <div class="mt-2">
+                                    <p class="font-weight-bold cm-heading mb-0">Database</p>
+                                    <p class="cm-subheading cm-subheading-light font-weight-bold">Fundamental</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 text-center">
+                            <div class="interest-level-div">
+                                <p class="font-weight-bold mb-0 text-dark">Level of interest</p>
+                                <select class="interest-level-select-field text-center" name="databaseFundamental">
+                                    <option selected disabled value=''>Select an option</option>
+                                    <option value="Not Interested">Not Interested</option>
+                                    <option value="Poor">Poor</option>
+                                    <option value="Beginner">Beginner</option>
+                                    <option value="Average">Average</option>
+                                    <option value="Intermediate">Intermediate</option>
+                                    <option value="Excellent">Excellent</option>
+                                    <option value="Professional">Professional</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-justify">
+                            Databases are collections of organized data that are used to store, retrieve, and manage
+                            information. They are commonly used in businesses and organizations to manage large amounts
+                            of
+                            data efficiently.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-5 cm-form-container cm-form-container-light p-4">
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <div class="d-flex">
+                                <img class="mr-2" src="../resources/cm-form-computer-architecture.png">
+                                <div class="mt-2">
+                                    <p class="font-weight-bold cm-heading mb-0">Computer</p>
+                                    <p class="cm-subheading cm-subheading-light font-weight-bold">Architecture</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 text-center">
+                            <div class="interest-level-div">
+                                <p class="font-weight-bold mb-0 text-dark">Level of interest</p>
+                                <select class="interest-level-select-field text-center" name="computerArchitecture">
+                                    <option selected disabled value=''>Select an option</option>
+                                    <option value="Not Interested">Not Interested</option>
+                                    <option value="Poor">Poor</option>
+                                    <option value="Beginner">Beginner</option>
+                                    <option value="Average">Average</option>
+                                    <option value="Intermediate">Intermediate</option>
+                                    <option value="Excellent">Excellent</option>
+                                    <option value="Professional">Professional</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-justify">
+                            Computer architecture is the study of how computer systems are designed and how they operate
+                            at
+                            a low level. It involves understanding the components of a computer and how they work
+                            together
+                            to perform tasks.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Row -->
+            <div class="row justify-content-around mt-4">
+                <div class="col-5 cm-form-container cm-form-container-light p-4">
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <div class="d-flex">
+                                <img class="mr-2" src="../resources/cm-form-distributed-computing.png">
+                                <div class="mt-2">
+                                    <p class="font-weight-bold cm-heading mb-0">Distributed Computing</p>
+                                    <p class="cm-subheading cm-subheading-light font-weight-bold">System</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 text-center">
+                            <div class="interest-level-div">
+                                <p class="font-weight-bold mb-0 text-dark">Level of interest</p>
+                                <select class="interest-level-select-field text-center"
+                                    name="distributedComputingSystem">
+                                    <option selected disabled value=''>Select an option</option>
+                                    <option value="Not Interested">Not Interested</option>
+                                    <option value="Poor">Poor</option>
+                                    <option value="Beginner">Beginner</option>
+                                    <option value="Average">Average</option>
+                                    <option value="Intermediate">Intermediate</option>
+                                    <option value="Excellent">Excellent</option>
+                                    <option value="Professional">Professional</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-justify">
+                            Distributed computing systems are networks of computers that work together to solve complex
+                            problems. They allow large tasks to be split into smaller pieces and worked on
+                            simultaneously by
+                            multiple computers, which can greatly improve processing speed and efficiency.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-5 cm-form-container cm-form-container-light p-4">
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <div class="d-flex">
+                                <img class="mr-2" src="../resources/cm-form-computer-networking.png">
+                                <div class="mt-2">
+                                    <p class="font-weight-bold cm-heading mb-0">Computer</p>
+                                    <p class="cm-subheading cm-subheading-light font-weight-bold">Networking</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 text-center">
+                            <div class="interest-level-div">
+                                <p class="font-weight-bold mb-0 text-dark">Level of interest</p>
+                                <select class="interest-level-select-field text-center" name="computerNetworking">
+                                    <option selected disabled value=''>Select an option</option>
+                                    <option value="Not Interested">Not Interested</option>
+                                    <option value="Poor">Poor</option>
+                                    <option value="Beginner">Beginner</option>
+                                    <option value="Average">Average</option>
+                                    <option value="Intermediate">Intermediate</option>
+                                    <option value="Excellent">Excellent</option>
+                                    <option value="Professional">Professional</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-justify">
+                            Networking is the practice of connecting computers and other devices together to share
+                            information and resources. It involves understanding different types of networks, such as
+                            local
+                            area networks (LANs) and wide area networks (WANs), and how to set up and manage them.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Third Row -->
+            <div class="row justify-content-around mt-4">
+                <div class="col-5 cm-form-container cm-form-container-light p-4">
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <div class="d-flex">
+                                <img class="mr-2" src="../resources/cm-form-software-development.png">
+                                <div class="mt-2">
+                                    <p class="font-weight-bold cm-heading mb-0">Software</p>
+                                    <p class="cm-subheading cm-subheading-light font-weight-bold">Development</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 text-center">
+                            <div class="interest-level-div">
+                                <p class="font-weight-bold mb-0 text-dark">Level of interest</p>
+                                <select class="interest-level-select-field text-center" name="softwareDevelopment">
+                                    <option selected disabled value=''>Select an option</option>
+                                    <option value="Not Interested">Not Interested</option>
+                                    <option value="Poor">Poor</option>
+                                    <option value="Beginner">Beginner</option>
+                                    <option value="Average">Average</option>
+                                    <option value="Intermediate">Intermediate</option>
+                                    <option value="Excellent">Excellent</option>
+                                    <option value="Professional">Professional</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-justify">
+                            Software development is the process of creating computer programs and applications. It
+                            involves
+                            writing code in programming languages and using various tools to design, test, and deploy
+                            software.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-5 cm-form-container cm-form-container-light p-4">
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <div class="d-flex">
+                                <img class="mr-2" src="../resources/cm-form-programming-skills.png">
+                                <div class="mt-2">
+                                    <p class="font-weight-bold cm-heading mb-0">Programming</p>
+                                    <p class="cm-subheading cm-subheading-light font-weight-bold">Skills</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 text-center">
+                            <div class="interest-level-div">
+                                <p class="font-weight-bold mb-0 text-dark">Level of interest</p>
+                                <select class="interest-level-select-field text-center" name="programmingSkills">
+                                    <option selected disabled value=''>Select an option</option>
+                                    <option value="Not Interested">Not Interested</option>
+                                    <option value="Poor">Poor</option>
+                                    <option value="Beginner">Beginner</option>
+                                    <option value="Average">Average</option>
+                                    <option value="Intermediate">Intermediate</option>
+                                    <option value="Excellent">Excellent</option>
+                                    <option value="Professional">Professional</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-justify">
+                            Programming skills refer to the ability to write code in various programming languages. They
+                            involve understanding programming concepts, syntax, and best practices, and being able to
+                            solve
+                            problems using code.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fourth Row -->
+            <div class="row justify-content-around mt-4">
+                <div class="col-5 cm-form-container cm-form-container-light p-4">
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <div class="d-flex">
+                                <img class="mr-2" src="../resources/cm-form-computer-forensics.png">
+                                <div class="mt-2">
+                                    <p class="font-weight-bold cm-heading mb-0">Computer Forensics</p>
+                                    <p class="cm-subheading cm-subheading-light font-weight-bold">Fundamental</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 text-center">
+                            <div class="interest-level-div">
+                                <p class="font-weight-bold mb-0 text-dark">Level of interest</p>
+                                <select class="interest-level-select-field text-center"
+                                    name="computerForensicsFundamentals">
+                                    <option selected disabled value=''>Select an option</option>
+                                    <option value="Not Interested">Not Interested</option>
+                                    <option value="Poor">Poor</option>
+                                    <option value="Beginner">Beginner</option>
+                                    <option value="Average">Average</option>
+                                    <option value="Intermediate">Intermediate</option>
+                                    <option value="Excellent">Excellent</option>
+                                    <option value="Professional">Professional</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-justify">
+                            Computer forensics is the process of investigating digital devices and data to uncover
+                            evidence
+                            of cyber crimes or other illegal activities. It involves using specialized tools and
+                            techniques
+                            to recover data and analyze it for evidence.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-5 cm-form-container cm-form-container-light p-4">
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <div class="d-flex">
+                                <img class="mr-2" src="../resources/cm-form-technical-communication.png">
+                                <div class="mt-2">
+                                    <p class="font-weight-bold cm-heading mb-0">Technical</p>
+                                    <p class="cm-subheading cm-subheading-light font-weight-bold">Communication</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 text-center">
+                            <div class="interest-level-div">
+                                <p class="font-weight-bold mb-0 text-dark">Level of interest</p>
+                                <select class="interest-level-select-field text-center" name="technicalCommunication">
+                                    <option selected disabled value=''>Select an option</option>
+                                    <option value="Not Interested">Not Interested</option>
+                                    <option value="Poor">Poor</option>
+                                    <option value="Beginner">Beginner</option>
+                                    <option value="Average">Average</option>
+                                    <option value="Intermediate">Intermediate</option>
+                                    <option value="Excellent">Excellent</option>
+                                    <option value="Professional">Professional</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-justify">
+                            Technical communication involves writing and presenting information about technical subjects
+                            in
+                            a clear and understandable way. It involves understanding complex technical information and
+                            translating it into language that can be easily understood by a non-technical audience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fifth Row -->
+            <div class="row justify-content-around mt-4">
+                <div class="col-5 cm-form-container cm-form-container-light p-4">
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <div class="d-flex">
+                                <img class="mr-2" src="../resources/cm-form-artificial-intelligence.png">
+                                <div class="mt-2">
+                                    <p class="font-weight-bold cm-heading mb-0">AI &</p>
+                                    <p class="cm-subheading cm-subheading-light font-weight-bold">ML</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 text-center">
+                            <div class="interest-level-div">
+                                <p class="font-weight-bold mb-0 text-dark">Level of interest</p>
+                                <select class="interest-level-select-field text-center" name="artificialIntelligence">
+                                    <option selected disabled value=''>Select an option</option>
+                                    <option value="Not Interested">Not Interested</option>
+                                    <option value="Poor">Poor</option>
+                                    <option value="Beginner">Beginner</option>
+                                    <option value="Average">Average</option>
+                                    <option value="Intermediate">Intermediate</option>
+                                    <option value="Excellent">Excellent</option>
+                                    <option value="Professional">Professional</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-justify">
+                            AI and ML are fields that involve using computer algorithms to perform tasks that typically
+                            require human intelligence, such as recognizing patterns, making decisions, and solving
+                            problems.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-5 cm-form-container cm-form-container-light p-4">
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <div class="d-flex">
+                                <img class="mr-2" src="../resources/cm-form-software-engineering.png">
+                                <div class="mt-2">
+                                    <p class="font-weight-bold cm-heading mb-0">Software</p>
+                                    <p class="cm-subheading cm-subheading-light font-weight-bold">Engineering</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 text-center">
+                            <div class="interest-level-div">
+                                <p class="font-weight-bold mb-0 text-dark">Level of interest</p>
+                                <select class="interest-level-select-field text-center" name="softwareEngineering">
+                                    <option selected disabled value=''>Select an option</option>
+                                    <option value="Not Interested">Not Interested</option>
+                                    <option value="Poor">Poor</option>
+                                    <option value="Beginner">Beginner</option>
+                                    <option value="Average">Average</option>
+                                    <option value="Intermediate">Intermediate</option>
+                                    <option value="Excellent">Excellent</option>
+                                    <option value="Professional">Professional</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-justify">
+                            Software engineering is the process of applying engineering principles to the development of
+                            software. It involves using systematic and disciplined approaches to design, develop, test,
+                            and
+                            maintain software.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sixth Row -->
+            <div class="row justify-content-around mt-4">
+                <div class="col-5 cm-form-container cm-form-container-light p-4">
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <div class="d-flex">
+                                <img class="mr-2" src="../resources/cm-form-business-analysis.png">
+                                <div class="mt-2">
+                                    <p class="font-weight-bold cm-heading mb-0">Business</p>
+                                    <p class="cm-subheading cm-subheading-light font-weight-bold">Analysis</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 text-center">
+                            <div class="interest-level-div">
+                                <p class="font-weight-bold mb-0 text-dark">Level of interest</p>
+                                <select class="interest-level-select-field text-center" name="businessAnalysis">
+                                    <option selected disabled value=''>Select an option</option>
+                                    <option value="Not Interested">Not Interested</option>
+                                    <option value="Poor">Poor</option>
+                                    <option value="Beginner">Beginner</option>
+                                    <option value="Average">Average</option>
+                                    <option value="Intermediate">Intermediate</option>
+                                    <option value="Excellent">Excellent</option>
+                                    <option value="Professional">Professional</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-justify">
+                            Business analysis involves identifying and analyzing business problems and opportunities and
+                            developing solutions to address them. It involves understanding business processes, data,
+                            and
+                            systems to identify areas for improvement and recommend changes.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-5 cm-form-container cm-form-container-light p-4">
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <div class="d-flex">
+                                <img class="mr-2" src="../resources/cm-form-communication-skills.png">
+                                <div class="mt-2">
+                                    <p class="font-weight-bold cm-heading mb-0">Communication</p>
+                                    <p class="cm-subheading cm-subheading-light font-weight-bold">skills</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 text-center">
+                            <div class="interest-level-div">
+                                <p class="font-weight-bold mb-0 text-dark">Level of interest</p>
+                                <select class="interest-level-select-field text-center" name="communicationSkills">
+                                    <option selected disabled value=''>Select an option</option>
+                                    <option value="Not Interested">Not Interested</option>
+                                    <option value="Poor">Poor</option>
+                                    <option value="Beginner">Beginner</option>
+                                    <option value="Average">Average</option>
+                                    <option value="Intermediate">Intermediate</option>
+                                    <option value="Excellent">Excellent</option>
+                                    <option value="Professional">Professional</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-justify">
+                            Communication skills refer to the ability to effectively convey information and ideas to
+                            others.
+                            They involve listening actively, speaking clearly and persuasively, and writing effectively.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Seventh Row -->
+            <div class="row justify-content-around mt-4">
+                <div class="col-5 cm-form-container cm-form-container-light p-4">
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <div class="d-flex">
+                                <img class="mr-2" src="../resources/cm-form-data-science.png">
+                                <div class="mt-2">
+                                    <p class="font-weight-bold cm-heading mb-0">Data</p>
+                                    <p class="cm-subheading cm-subheading-light font-weight-bold">Science</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 text-center">
+                            <div class="interest-level-div">
+                                <p class="font-weight-bold mb-0 text-dark">Level of interest</p>
+                                <select class="interest-level-select-field text-center" name="dataScience">
+                                    <option selected disabled value=''>Select an option</option>
+                                    <option value="Not Interested">Not Interested</option>
+                                    <option value="Poor">Poor</option>
+                                    <option value="Beginner">Beginner</option>
+                                    <option value="Average">Average</option>
+                                    <option value="Intermediate">Intermediate</option>
+                                    <option value="Excellent">Excellent</option>
+                                    <option value="Professional">Professional</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-justify">
+                            Data science involves using statistical and computational techniques to extract insights
+                            from
+                            data. It involves collecting and analyzing large amounts of data to uncover patterns and
+                            trends
+                            that can be used to make better decisions.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-5 cm-form-container cm-form-container-light p-4">
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <div class="d-flex">
+                                <img class="mr-2" src="../resources/cm-form-trouble-shooting.png">
+                                <div class="mt-2">
+                                    <p class="font-weight-bold cm-heading mb-0">Trouble</p>
+                                    <p class="cm-subheading cm-subheading-light font-weight-bold">Shooting</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 text-center">
+                            <div class="interest-level-div">
+                                <p class="font-weight-bold mb-0 text-dark">Level of interest</p>
+                                <select class="interest-level-select-field text-center" name="troubleShooting">
+                                    <option selected disabled value=''>Select an option</option>
+                                    <option value="Not Interested">Not Interested</option>
+                                    <option value="Poor">Poor</option>
+                                    <option value="Beginner">Beginner</option>
+                                    <option value="Average">Average</option>
+                                    <option value="Intermediate">Intermediate</option>
+                                    <option value="Excellent">Excellent</option>
+                                    <option value="Professional">Professional</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-justify">
+                            Data science involves using statistical and computational techniques to extract insights
+                            from
+                            data. It involves collecting and analyzing large amounts of data to uncover patterns and
+                            trends
+                            that can be used to make better decisions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Eighth Row -->
+            <div class="row justify-content-around mt-4">
+                <div class="col-5 cm-form-container cm-form-container-light p-4">
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <div class="d-flex">
+                                <img class="mr-2" src="../resources/cm-cyber-security.png">
+                                <div class="mt-2">
+                                    <p class="font-weight-bold cm-heading mb-0">Cyber</p>
+                                    <p class="cm-subheading cm-subheading-light font-weight-bold">Security</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 text-center">
+                            <div class="interest-level-div">
+                                <p class="font-weight-bold mb-0 text-dark">Level of interest</p>
+                                <select class="interest-level-select-field text-center" name="cyberSecurity">
+                                    <option selected disabled value=''>Select an option</option>
+                                    <option value="Not Interested">Not Interested</option>
+                                    <option value="Poor">Poor</option>
+                                    <option value="Beginner">Beginner</option>
+                                    <option value="Average">Average</option>
+                                    <option value="Intermediate">Intermediate</option>
+                                    <option value="Excellent">Excellent</option>
+                                    <option value="Professional">Professional</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-justify">
+                            The practice of protecting computer systems, networks, and sensitive data from unauthorized
+                            access, use, disclosure, disruption, modification, or destruction.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-5 cm-form-container cm-form-container-light p-4">
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <div class="d-flex">
+                                <img class="mr-2" src="../resources/cm-project-management.png">
+                                <div class="mt-2">
+                                    <p class="font-weight-bold cm-heading mb-0">Project</p>
+                                    <p class="cm-subheading cm-subheading-light font-weight-bold">Management</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 text-center">
+                            <div class="interest-level-div">
+                                <p class="font-weight-bold mb-0 text-dark">Level of interest</p>
+                                <select class="interest-level-select-field text-center" name="projectManagment">
+                                    <option selected disabled value=''>Select an option</option>
+                                    <option value="Not Interested">Not Interested</option>
+                                    <option value="Poor">Poor</option>
+                                    <option value="Beginner">Beginner</option>
+                                    <option value="Average">Average</option>
+                                    <option value="Intermediate">Intermediate</option>
+                                    <option value="Excellent">Excellent</option>
+                                    <option value="Professional">Professional</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-justify">
+                            The process of planning, organizing, and overseeing the execution of a project from start to
+                            finish, with the goal of achieving specific objectives within a defined scope, budget, and
+                            timeline.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ninth Row -->
+            <div class="row justify-content-around mt-4">
+                <div class="col-5 cm-form-container cm-form-container-light p-4">
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <div class="d-flex">
+                                <img class="mr-2" src="../resources/cm-form-graphic-designing.png">
+                                <div class="mt-2">
+                                    <p class="font-weight-bold cm-heading mb-0">Graphic</p>
+                                    <p class="cm-subheading cm-subheading-light font-weight-bold">Designing</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 text-center">
+                            <div class="interest-level-div">
+                                <p class="font-weight-bold mb-0 text-dark">Level of interest</p>
+                                <select class="interest-level-select-field text-center" name="graphicDesigning">
+                                    <option selected disabled value=''>Select an option</option>
+                                    <option value="Not Interested">Not Interested</option>
+                                    <option value="Poor">Poor</option>
+                                    <option value="Beginner">Beginner</option>
+                                    <option value="Average">Average</option>
+                                    <option value="Intermediate">Intermediate</option>
+                                    <option value="Excellent">Excellent</option>
+                                    <option value="Professional">Professional</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-justify">
+                            Graphic design is the practice of creating visual content, such as logos, images, and
+                            layouts,
+                            using computer software. It involves understanding design principles, typography, and color
+                            theory to create aesthetically pleasing and effective designs
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group text-center mt-5">
+            <!-- Form Submit Button -->
+            <button type="submit" class="career-mentorship-form-submit px-3">Explore my Career Path</button>
+            <small class="cm-form-error-msg text-danger d-none">Please select all fields to proceed</small>
+        </div>
+    </form>
+</div>

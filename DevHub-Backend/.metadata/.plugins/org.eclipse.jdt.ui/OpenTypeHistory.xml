@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=devhub/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.devhub.service{CareerMentorshipService.java[CareerMentorshipService" modifiers="513" timestamp="1678818609196"/>
+    <typeInfo handle="=devhub/C:\/Users\/Geo Information\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.7.6\/spring-data-jpa-2.7.6.jar=/maven.pomderived=/true=/=/org.eclipse.jst.component.dependency=/\/WEB-INF\/lib=/=/maven.pomderived=/true=/=/org.eclipse.jst.component.archivename=/spring-data-jpa-2.7.6.jar=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/2.7.6=/=/maven.scope=/compile=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1672063969255"/>
+    <typeInfo handle="=devhub/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.devhub.service{RoadmapService.java[RoadmapService" modifiers="513" timestamp="1679079381948"/>
+</typeInfoHistroy>
