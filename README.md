@@ -6,11 +6,12 @@ DevHub is a machine learning-based web application that will empower students in
 2. **Roadmaps:** Professionally curated roadmaps for a wide range of technologies, providing students with clear learning paths and helping them achieve their career goals.
 3. **Virtual Internships:** An online program that offers students valuable hands-on experience through automated pipelines, project assignments, and industry-recognized certificates. 
 4. **NoCodePortfolio:** An automatic system that generates a responsive website for users on their information, allowing them to quickly create a portfolio without any coding knowledge.
+5. **Chat With Books** A chatbot that lets students upload their books and then understand their concepts more clearly with the help of LLMs knowledge.
 
 
 | <p align="center">🎥 [Watch the DevHub Video](https://www.youtube.com/watch?v=WOF1tfxoqEI)</p> |
 | --- |
-[![DevHub](https://github.com/XFarooqi/temp/blob/ba3b53ec1aefc422cdb944ab0acf4f512b381b08/devhub.png)](https://www.youtube.com/watch?v=WOF1tfxoqEI)
+[![DevHub](https://github.com/XFarooqi/temp/blob/ba3b53ec1aefc422cdb944ab0acf4f512b381b08/devhub.png)](https://youtu.be/IyQbfehOtV0)
 
 ## Project Impact
 DevHub has made a positive impact by addressing the problem of inadequate technical education and limited career opportunities for students. Our solution provides mentorship, structured learning paths, and virtual internships, allowing students to gain industry-relevant skills and become job-ready professionals. The feedback from our users, with 85% positive feedback among 200 students, indicates the effectiveness and user satisfaction with our platform.
